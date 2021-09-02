@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:controls="clr-namespace:Xamarin.Forms.Controls;assembly=Xamarin.Forms.QrScanner"
+             xmlns:sample="clr-namespace:Sample"
+             x:Class="Sample.Views.MainPage"
+             xmlns:ios="clr-namespace:Xamarin.Forms.PlatformConfiguration.iOSSpecific;assembly=Xamarin.Forms.Core"
+             Title="QR scan sample">
+
+    <StackLayout>
+        <Button Padding="24,4" HorizontalOptions="Center" VerticalOptions="CenterAndExpand" Text="Start scan" FontSize="Body" Command="{Binding StartScanner}"/>
+    </StackLayout>
+
+</ContentPage>
