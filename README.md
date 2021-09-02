@@ -9,6 +9,8 @@ This implementation uses `GooglePlayServices.Vision` for Android and `AVFoundati
 
 No overhead dependencies! 🔥
 
+> 💡 Launch [Sample](https://github.com/VictorKochetkov/Xamarin.Forms.QrScanner/tree/main/Sample) app which demonstrates library usage!
+
 # Quick start
 
 Easy to use control - just add `QrScannerView` into your XAML. Supports MVVM pattern!
@@ -25,7 +27,6 @@ Easy to use control - just add `QrScannerView` into your XAML. Supports MVVM pat
 `Result` - command will be executed when QR has recognized
 
 `IsScanning` - enable or disable scan (while you processing a result, for example)
-
 
 # Donate
 
