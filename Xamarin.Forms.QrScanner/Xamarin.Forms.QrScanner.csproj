@@ -3,6 +3,14 @@
   <PropertyGroup>
     <TargetFrameworks>xamarin.ios10;monoandroid10.0;netstandard2.0</TargetFrameworks>
     <RootNamespace>Xamarin.Forms.Controls</RootNamespace>
+	<GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <PackageId>Xamarin.Forms.QrScanner</PackageId>
+    <Authors>Victor Kochetkov</Authors>
+    <Company></Company>
+    <Product />
+    <PackageProjectUrl>https://github.com/VictorKochetkov/Xamarin.Forms.QrScanner</PackageProjectUrl>
+    <Description>Fast and lightweight QR scanner for Xamarin.Forms (works on Android and iOS)</Description>
+    <Version>0.9.1</Version>
   </PropertyGroup>
 
 
