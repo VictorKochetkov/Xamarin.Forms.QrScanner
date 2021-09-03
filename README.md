@@ -11,7 +11,7 @@ Fast and lightweight QR scanner for Xamarin.Forms (works on Android and iOS) �
 
 This implementation uses `GooglePlayServices.Vision` for Android and `AVFoundation` for iOS. 
 
-No overhead dependencies! 🔥
+**No overhead dependencies!** 🔥
 
 > 💡 Launch [Sample](https://github.com/VictorKochetkov/Xamarin.Forms.QrScanner/tree/main/Sample) app which demonstrates library usage!
 
