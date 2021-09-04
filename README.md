@@ -1,12 +1,12 @@
 # Xamarin.Forms.QrScanner
 
-<img width="60" height="60" style="border-radius: 3px;" src="https://github.com/VictorKochetkov/Xamarin.Forms.QrScanner/blob/main/Xamarin.Forms.QrScanner/nuget/nuget-icon.png">  
+<img width="50" height="50" src="https://github.com/VictorKochetkov/Xamarin.Forms.QrScanner/blob/main/Xamarin.Forms.QrScanner/nuget/nuget-icon.png">
 
 <a href="https://www.nuget.org/packages/Xamarin.Forms.QrScanner"><img alt="Nuget" src="https://img.shields.io/nuget/v/Xamarin.Forms.QrScanner"></a> <a href="https://www.nuget.org/packages/Xamarin.Forms.QrScanner"><img alt="Nuget" src="https://img.shields.io/nuget/dt/Xamarin.Forms.QrScanner"></a>
 
 Fast and lightweight QR scanner for Xamarin.Forms (works on Android and iOS) 🚀
 
-> 💡 Install via [NuGet](https://www.nuget.org/packages/Xamarin.Forms.QrScanner)
+> 💡 Install via [NuGet](https://www.nuget.org/packages/Xamarin.Forms.QrScanner)  
 
 ![ezgif com-gif-maker (1)](https://user-images.githubusercontent.com/11313401/131913282-52b40221-8ae2-45e5-a7a9-5951c32b949f.gif)
 ![ezgif com-gif-maker](https://user-images.githubusercontent.com/11313401/131913338-8de7ed6a-a8fd-4dac-ae95-dae0edaf95eb.gif)
