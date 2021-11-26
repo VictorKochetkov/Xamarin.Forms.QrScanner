@@ -34,6 +34,10 @@ Easy to use control - just add `QrScannerView` into your XAML. Supports MVVM pat
 
 `IsScanning` - enable or disable scan (while you processing a result, for example)
 
+# Requirements
+
+> 💡 Android implementation of scanner requires Google Play Service to be installed on smartphone. **It does not works with out them**. Possible not working on new Huawei or Samsung firmwares 😑
+
 # Donate
 
 If you like this project you can support it by making a donation 🤗 Thank you!
