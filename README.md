@@ -36,7 +36,7 @@ Easy to use control - just add `QrScannerView` into your XAML. Supports MVVM pat
 
 # Requirements
 
-> 💡 Android implementation of scanner requires Google Play Services to be installed on smartphone. **It does not works with out them**. Possible not working on new Huawei or Samsung firmwares 😑
+> 💡 Android implementation of scanner requires Google Play Services to be installed on smartphone. **It does not works without them**. Possibly not working on new Huawei or Samsung firmwares 😑
 
 # Donate
 
