@@ -53,13 +53,13 @@ namespace Xamarin.Forms.Controls
         /// <inheritdoc/>
         public void ReceiveDetections(Detections detections)
         {
-            SparseArray qrcodes = detections.DetectedItems;
+            SparseArray barcodes = detections.DetectedItems;
 
-            if (qrcodes.Size() != 0)
+            if (barcodes.Size() != 0)
             {
                 Post(() =>
                 {
-                    string result = ((Barcode)qrcodes.ValueAt(0)).RawValue;
+                    string result = ((Barcode)barcodes.ValueAt(0)).RawValue;
 
                     if (Element?.IsScanning == true)
                         Element?.Result?.Execute(result);
@@ -80,7 +80,7 @@ namespace Xamarin.Forms.Controls
             if (Control == null)
             {
                 var detector = new BarcodeDetector.Builder(Context)
-                    .SetBarcodeFormats(BarcodeFormat.QrCode)
+                    .SetBarcodeFormats(BarcodeFormat.AllFormats)
                     .Build();
 
                 detector.SetProcessor(this);
